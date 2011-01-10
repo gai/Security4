@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -69,45 +69,6 @@
 4
 \end_layout
 
-\begin_layout Enumerate
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-כאשר מדיניות _רייט_דאון_ אינה נאכפת, תהליך בלתי אמין עלול לכתוב לחלקים קריטיים
- במערכת.
- ניתן לממש התקפה אפשרית על מערכת כזו באמצעות שימוש בזכויותיו של תהליך ה_בראוזר_
- לכתיבת דרייבר זדוני עבור המקלדת בתיקיית _/סלש_דרייברס_ - דרייבר אשר רושם
- את הקלדות המשתמש ושולח אותן לשרת מרוחק )_קילוגר_(.
-\end_layout
-
-\begin_layout Enumerate
-אי אכיפת מדיניות _ריד_אפ_ עלולה לגרום למצב שבו תהליך הנחשב לאמין קורא נתונים
- בלתי אמינים.
- תוקף יכול לנצל זאת על ידי כתיבת נתונים זדוניים לתיקיית _/טמפ_, כך שתהליך
- מרמה גבוהה יותר כגון _אפליקיישן_אינסטולר_ יקרא אותם, וינצל אותם למטרותיו
- של התוקף )לדוגמה, החלפת כתובתו של שרת מרוחק כדי לייצר מתקפת _מן_אין_דה_מידל_(.
-\end_layout
-
-\begin_layout Enumerate
-לא ניתן לעשות זאת, על פי הגדרת _רייט_דאון_.
- נבחין כי ה_בראוזר_ נמצא ברמה הנמוכה ביותר, ומהגדרת _רייט_דאון_ הוא יכול
- לכתוב רק לרמה בא הוא נמצא או לרמות נמוכות יותר.
- היות ותיקיית _/סלש_דרייברס_ נמצאת ברמת _קרושאל_, הגבוהה ביותר, לא ייתכן
- כי כתוצאה מפעולה של ה_בראוזר_ תיכתב אפליקציה לתיקיית _/סלש_אפליקיישנס_.
-\end_layout
-
-\end_deeper
 \begin_layout Author
 צפריר ריהן 
 \begin_inset ERT
@@ -764,6 +725,272 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+כאשר מדיניות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+write down
+\lang hebrew
+ אינה נאכפת, תהליך בלתי אמין עלול לכתוב לחלקים קריטיים במערכת.
+ ניתן לממש התקפה אפשרית על מערכת כזו באמצעות שימוש בזכויותיו של תהליך ה-
+\lang english
+browser
+\lang hebrew
+ לכתיבת דרייבר זדוני עבור המקלדת בתיקיית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+/drivers
+\lang hebrew
+ - דרייבר אשר רושם את הקלדות המשתמש ושולח אותן לשרת מרוחק )
+\lang english
+keylogger
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Enumerate
+אי אכיפת מדיניות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+read up
+\lang hebrew
+ עלולה לגרום למצב שבו תהליך הנחשב לאמין קורא נתונים בלתי אמינים.
+ תוקף יכול לנצל זאת על ידי כתיבת נתונים זדוניים לתיקיית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+/tmp
+\lang hebrew
+, כך שתהליך מרמה גבוהה יותר כגון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+application installer
+\lang hebrew
+ יקרא אותם, וינצל אותם למטרותיו של התוקף )לדוגמה, החלפת כתובתו של שרת מרוחק
+ כדי לייצר מתקפת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+man in the middle
+\lang hebrew
+(.
+\end_layout
+
+\begin_layout Enumerate
+לא ניתן לעשות זאת, על פי הגדרת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+write down
+\lang hebrew
+.
+ נבחין כי ה-
+\lang english
+browser
+\lang hebrew
+ נמצא ברמה הנמוכה ביותר, ומהגדרת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+write down
+\lang hebrew
+ הוא יכול לכתוב רק לרמה בה הוא נמצא או לרמות נמוכות יותר.
+ היות ותיקיית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+/drivers
+\lang hebrew
+ נמצאת ברמת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+crucial
+\lang hebrew
+, הגבוהה ביותר, לא ייתכן כי כתוצאה מפעולה של ה-
+\lang english
+browser
+\lang hebrew
+ תיכתב אפליקציה לתיקיית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+/applications
+\lang hebrew
+.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
 status open
@@ -1241,6 +1468,5 @@ usb
 \end_layout
 
 \end_deeper
-
 \end_body
 \end_document
