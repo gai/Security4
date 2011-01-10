@@ -1057,6 +1057,146 @@ online
 \end_layout
 
 \end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+במקרה והמחשב הנייד נגנב כאשר הוא כבוי - סודיות הנתונים מובטחת.
+ אנו מניחים כי אלגוריתמי ההצפנה בטוחים, לתוקף אין את המפתח הדרוש לפענוח
+ ה-
+\begin_inset Formula $VMK$
+\end_inset
+
+ או ה-
+\begin_inset Formula $FVEK$
+\end_inset
+
+ ולכן אינו יכול לקרא את הנתונים המוצפנים על הדיסק.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+אם המחשב הנייד נגנב כאשר הוא פועל - ה-
+\begin_inset Formula $FVEK$
+\end_inset
+
+ כבר נמצא בזכרון, ולכן לתוקף יש גישה מלאה לכל הקבצים על הדיסק - הוא יכול
+ להעתיק את כל תכולת הדיסק )לא מוצפנת( לדיסק אחר לפני שהוא מכבה את המחשב
+ - ובכך יקבל גישה מלאה מתי שירצה לכל הקבצים.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+במקרה זה החוליה החלשה במערכת היא הססמאות שבהן משתמשים המשתמשים.
+ אם הססמאות נבחרות על ידי המשתמשים סביר להניח שהתקפת מילון תאפשר לתוקף למצא
+ את הססמא.
+ אבל גם אם המשתמשים בוחרים ססמאות חזקות יחסית ניתן לצפות שהן יהיו קצרות
+ יחסית, ובפרט קצרות מהססמאות האקראיות שניתן להחזיק על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+usb
+\lang hebrew
+, ולכן ניתן להציע התקפות מילון גם עבורן.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+פרט לבעיית אורך ואופן בחירת הססמא הפתרון המוצע שקול לפתרון בו משתמשים ב-
+\lang english
+usb
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ )ניתן לתקוף את ה-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+usb
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+עצמו כפי שניתן לתקוף את המקלדת, אך אלו לא ההתקפות בהן אנו דנים כאן(.
+ יש לציין שבדומה למשתמשים הנוהגים להחזיק את ה-
+\lang english
+usb
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בצמוד למחשב כך ססמאות ארוכות ואקראיות גורמות למשתמשים לכתוב את הססמא בסמוך
+ למחשב, וכך הבעיה חוזרת על עצמה.
+\end_layout
+
+\end_deeper
 \begin_layout Enumerate
 
 \end_layout
