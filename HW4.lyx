@@ -210,5 +210,897 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Enumerate
+מערכת א' עם הפרמטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+500
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ תניב 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+10
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+התראות.
+ מתוכן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+התראות אמת, כאשר יש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+התקפות במערכת.
+ לכן בסך הכל שיעור התראות האמת הוא 
+\begin_inset Formula $75\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\numeric on
+7
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+מתוך ההתראות הן התראות שווא, ויש
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+20
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+מופעי התנהגות רגילה, לכן שיעור התראות השווא הוא 
+\begin_inset Formula $35\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+מערכת ב' עם הפרמטר 
+\begin_inset Formula $430$
+\end_inset
+
+ תניב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+11
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+התראות )בהנחה ועבור שעות שבהן אין פעילות כלל לא ניתנת התראה(.
+ מתוכן 
+\begin_inset Formula $3$
+\end_inset
+
+ התראות אמת, בסך הכל שיעור התראות האמת הוא 
+\begin_inset Formula $75\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\numeric on
+8
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+מתוך ההתראות הן התראות שווא, לכן שיעור התראות השווא הוא 
+\begin_inset Formula $40\%$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Graphics
+	filename chart1.5.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+בהנחה ואין העדפה ל-
+\lang english
+false positive
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+או ל-
+\lang english
+true-positive
+\lang hebrew
+, נרצה להביא למקסימום את הערך - 
+\begin_inset Formula \[
+TruePositive-FalsePositive\]
+
+\end_inset
+
+הערך המקסימלי עבור מדד זה )
+\numeric on
+0.4
+\numeric off
+( מתקבל עבור הפרמטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+500
+\numeric off
+.
+\end_layout
+
+\begin_layout Enumerate
+בהנחה ומנהל הרשת מעוניין לתפוס את כל אזעקות האמת )ולהקטין למינימום את אזעקות
+ השווא( עליו לבחור במערכת א' בפרמטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)ולקבל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\begin_inset Formula $65\%$
+\end_inset
+
+ אזעקות שווא(, או במערכת ב' בפרמטר 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+500
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+)ולקבל 
+\begin_inset Formula $80\%$
+\end_inset
+
+ אזעקות שווא(.
+ לכן במקרה זה עדיף לבחור במערכת א'.
+\end_layout
+
+\begin_layout Enumerate
+אם נפעיל את שתי המערכות, כאשר מערכת א' תופעל עם הפרמטר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+500
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ומערכת ב' עם הפרמטר 
+\begin_inset Formula $390$
+\end_inset
+
+, ונתריע רק כאשר באותה שעה שתי המערכות מתריעות על התקפה, נקבל בסך הכל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ אזעקות )בשעות 
+\begin_inset Formula $9:00,\ 17:00,\ 22:00$
+\end_inset
+
+( - כולן אזעקות אמת.
+ כלומר 
+\begin_inset Formula $75\%$
+\end_inset
+
+ אזעקות אמת וללא אזעקות שווא כלל.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+כל המחרוזות 
+\begin_inset Formula $S_{0},S_{1}\dots S_{100}$
+\end_inset
+
+ נגישות לשרת.
+ לכן הוא יכול בשלב ראשון לחשב את 
+\begin_inset Formula $p_{0}$
+\end_inset
+
+ ולשמור גם אותו, ועת בקשת הזדהות לשלוח למשתמש את המספר 
+\begin_inset Formula $i$
+\end_inset
+
+, המשתמש יחשב את 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ וישלח לשרת, והשרת ישווה 
+\begin_inset Formula $p_{i}\stackrel{?}{=}p_{i-1}\oplus S_{101-i}$
+\end_inset
+
+ כדי לבדוק האם אכן מדובר במשתמש לגיטימי.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+נשים לב שפונקציית ה-
+\begin_inset Formula $xor$
+\end_inset
+
+ היא לא חד כיוונית, לכן השרת למעשה יכול לחשב בעצמו את הערך שהוא מצפה לקבל
+ מהמשתמש, ולחילופין לחשב את כל אחד מה-
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ באופן מלא ומפורש.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+תוקף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+offline
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ יוכל להתחזות לגלית בקלות.
+ כפי שציינו בסעיף א' אצל השרת נשמר כל המידע הנחוץ לחישוב כל אחד מהמפתחות
+ 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ ולכן אם תוקף השיג גישה למידע הנשמר אצל השרת הוא למעשה יודע את כל המידע
+ שאליס יודעת )בנוגע להזדהות( ויכול להתחזות לה באופן מושלם.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+לעומת זאת, כאשר משתמשים בפונקציה 
+\series bold
+חד כיוונית
+\series default
+ כפי שנלמד בכתה, תוקף שמשיג את המידע הנשמר אצל השרת )
+\begin_inset Formula $p_{0}$
+\end_inset
+
+( לא יכול לחשב את 
+\begin_inset Formula $f^{-1}$
+\end_inset
+
+ בקלות, ולכן לא יוכל להתחזות לגל בקלות.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+תוקף
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+online
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+לא יוכל להתחזות לגלית בקלות.
+ בכל תהליך הזדהות גלית מחשבת ערך שמבוסס על 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+ אקראי שאין לתוקף מידע קודם לגביו, ולכן מבחינתו תהליך ההזדהות שקול להצפנה
+ באמצעות פנקס חד פעמי.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+לעומת זאת, הוא יוכל להתחזות לגל אם הוא לא מוגבל חישובית, מרגע שהתוקף "ראה"
+ שני מופעים 
+\begin_inset Formula $p_{i},p_{j}$
+\end_inset
+
+ הוא יכול לעבור על כל הסדרות האפשריות שיכלו לשמש את גל ולמצא את זו שגל משתמש
+ בה )לחילופין, אם הוא ראה את השלב בו המשתמש הכריז על 
+\begin_inset Formula $f$
+\end_inset
+
+ ו-
+\begin_inset Formula $p_{0}$
+\end_inset
+
+ הוא יכול לחשב מתוכן את הסדרה(.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+תוקף יכול להתחזות לגלית מול השרת 
+\begin_inset Formula $B$
+\end_inset
+
+ לאחר שהיא ביצעה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ תהליכי הזדהות מול 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ בתהליך ההזדהות ה-
+\begin_inset Formula $i$
+\end_inset
+
+ מול 
+\begin_inset Formula $A$
+\end_inset
+
+ גלית למעשה חושפת לתוקף את 
+\begin_inset Formula $S_{101-i}$
+\end_inset
+
+ )הוא ראה את 
+\begin_inset Formula $p_{i-1}$
+\end_inset
+
+ ואת 
+\begin_inset Formula $p_{i}$
+\end_inset
+
+ ולכן הוא יודע את 
+\begin_inset Formula $p_{i-1}\oplus p_{i}=S_{101-i}$
+\end_inset
+
+(.
+ לכן לאחר שאליס השתמשה ב-
+\begin_inset Formula $\left\{ S_{i}\right\} $
+\end_inset
+
+ עבור שרת 
+\begin_inset Formula $A$
+\end_inset
+
+ הם אינם סודיים עוד, והתוקף יודע אותם ולכן יכול להתחזות לגלית באופן מושלם.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+נשים לב שגם אילו גלית הייתה מחלקת את אותם 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+ים לשני השרתים בסדר הפוך, ומתחילה להזדהות במקביל מול שניהם תוקף היה יכול
+ להתחזות לה מול כל אחד מהשרתים לאחר שהיא ביצעה בסך הכל
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+תהליכי הזדהות )מול שרת 
+\begin_inset Formula $A$
+\end_inset
+
+ או 
+\begin_inset Formula $B$
+\end_inset
+
+(, שכן כל תהליך כזה חושף 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+ וסדר החשיפה הפוך.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\end_layout
+
+\end_deeper
+
 \end_body
 \end_document
