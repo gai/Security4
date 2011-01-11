@@ -1464,6 +1464,86 @@ usb
 
 \end_deeper
 \begin_layout Enumerate
+כאשר אין במערכת רכיב 
+\begin_inset Formula $TPM$
+\end_inset
+
+ אין כלי שיוכל לזהות התנהגות חריגה של תוקף ולמנוע ממנו את ההתקפה.
+ התנהגות חריגה כזו יכולה להיות העברת הדיסק הקשיח למחשב אחר, ביצוע מספר רב
+ של נסיונות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+boot
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+בתוך זמן קצר, החלפת קוד וכו'...
+ התקפה כזו יכולה לכלול למשל - העברת הדיסק המוגן למחשב ייעודי, ש"יפציץ" את
+ הדיסק בבקשות לפענוח ה-
+\begin_inset Formula $VMK$
+\end_inset
+
+ מתוך מילון או בביצוע חיפוש ממצה.
+ המחשב הייעודי יכול להיות מהיר למדי, וכתלות באורך המפתח ומהירות המחשב -
+ למצא את המפתח בתוך זמן סביר.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+לעומת זאת - במערכת המשתמשת ברכיב 
+\begin_inset Formula $TPM$
+\end_inset
+
+ ניתן לקבוע מדיניות שבה זמן מינימלי בין בקשות פענוח של ה-
+\begin_inset Formula $VMK$
+\end_inset
+
+ )או מספר מוגבל של נסיונות - לפני שהמערכת ננעלת(.
+ בנוסף - כדי למנוע העברת הדיסק למחשב ייעודי שיבצע את החיפוש הממצה )או החיפוש
+ במילון( במהירות ה-
+\begin_inset Formula $TPM$
+\end_inset
+
+ יוכל לבצע בדיקת שלמות של המערכת, ולא לאפשר נסיון פענוח של ה-
+\begin_inset Formula $VMK$
+\end_inset
+
+ אם הושתל בו קוד אחר או היה שינוי כלשהו בחומרה.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
 
 \end_layout
 
