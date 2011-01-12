@@ -966,7 +966,7 @@ crucial
 \lang english
 browser
 \lang hebrew
- תיכתב אפליקציה לתיקיית
+ ייכתב דרייבר לתיקיית
 \family roman
 \series medium
 \shape up
@@ -985,7 +985,7 @@ browser
 \noun default
 \color inherit
 \lang english
-/applications
+/drivers
 \lang hebrew
 .
 \end_layout
