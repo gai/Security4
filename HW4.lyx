@@ -990,6 +990,51 @@ browser
 .
 \end_layout
 
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+עדיף לוותר על מדיניות _ריד_אפ_ - כאשר מדיניות _רייט_דאון_ מבוטלת, תוקף יכול
+ לנצל פרצה בדפדפן על מנת להתקין אפליקציה או דרייבר.
+ במימוש שבו רק מדיניות _ריד_אפ_ מבוטלת, התקנת אפליקציה או דרייבר מבוצעים
+ על ידי תהליכים אמינים הניגשים למידע שהורד על ידי הדפדפן, ולא על ידי הדפדפן
+ עצמו.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+משמעות הויתור על מדיניות _רייט_אפ_ היא שתהליך אמין שיש בידיו מידע סודי מסוגל
+ לכתוב מידע זה לכל מקום במערכת, בפרט לרמות הרשאה נמוכות יותר, בהן רצים תהליכים
+ פחות אמינים.
+ מכיוון שמדיניות _ריד_דאון_ מאפשרת לתהליכים כאלה לקרוא את המידע שברמתם,
+ ויתור זה מאפשר זליגת מידע סודי לתהליכים פחות אמינים, שייתכן כי נפלו קורבן
+ למתקפה זדונית.
+\end_layout
+
 \end_deeper
 \begin_layout Enumerate
 \begin_inset ERT
