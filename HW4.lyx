@@ -470,7 +470,7 @@ status open
 \begin_layout Enumerate
 \begin_inset Graphics
 	filename chart1.5.png
-	scale 70
+	width 90col%
 
 \end_inset
 
@@ -1005,11 +1005,30 @@ status open
 
 \begin_deeper
 \begin_layout Enumerate
-עדיף לוותר על מדיניות _ריד_אפ_ - כאשר מדיניות _רייט_דאון_ מבוטלת, תוקף יכול
- לנצל פרצה בדפדפן על מנת להתקין אפליקציה או דרייבר.
- במימוש שבו רק מדיניות _ריד_אפ_ מבוטלת, התקנת אפליקציה או דרייבר מבוצעים
- על ידי תהליכים אמינים הניגשים למידע שהורד על ידי הדפדפן, ולא על ידי הדפדפן
- עצמו.
+עדיף לוותר על מדיניות 
+\lang english
+read up
+\lang hebrew
+ - כאשר מדיניות 
+\lang english
+write down
+\lang hebrew
+ מבוטלת, תוקף יכול לנצל פרצה בדפדפן על מנת להתקין אפליקציה או דרייבר.
+ במימוש שבו רק מדיניות 
+\lang english
+read up
+\lang hebrew
+ מבוטלת, התקנת אפליקציה או דרייבר מבוצעים על ידי תהליכים אמינים הניגשים
+ למידע שהורד על ידי הדפדפן, ולא על ידי הדפדפן עצמו.
+ כך 
+\series bold
+התוכנה שעליה סומכים בוחרת
+\series default
+ לאיזה מידע לא בטוח לגשת, בניגול למצב שבו 
+\series bold
+התוכנה שעליה פחות סומכים
+\series default
+ בוחרת לכתוב מידע שיסווג כ"אמין".
 \end_layout
 
 \begin_layout Enumerate
@@ -1022,12 +1041,52 @@ status open
 
 \end_deeper
 \begin_layout Enumerate
-משמעות הויתור על מדיניות _רייט_אפ_ היא שתהליך אמין שיש בידיו מידע סודי מסוגל
- לכתוב מידע זה לכל מקום במערכת, בפרט לרמות הרשאה נמוכות יותר, בהן רצים תהליכים
- פחות אמינים.
- מכיוון שמדיניות _ריד_דאון_ מאפשרת לתהליכים כאלה לקרוא את המידע שברמתם,
- ויתור זה מאפשר זליגת מידע סודי לתהליכים פחות אמינים, שייתכן כי נפלו קורבן
- למתקפה זדונית.
+משמעות הויתור על מדיניות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+write up
+\lang hebrew
+ היא שתהליך אמין שיש בידיו מידע סודי מסוגל לכתוב מידע זה לכל מקום במערכת,
+ בפרט לרמות הרשאה נמוכות יותר, בהן רצים תהליכים פחות אמינים.
+ מכיוון שמדיניות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+read down
+\lang hebrew
+ מאפשרת לתהליכים כאלה לקרוא את המידע שברמתם, ויתור זה מאפשר זליגת מידע סודי
+ לתהליכים פחות אמינים, שייתכן כי נפלו קורבן למתקפה זדונית.
 \end_layout
 
 \end_deeper
@@ -1584,11 +1643,34 @@ boot
 
 \end_deeper
 \begin_layout Enumerate
-לא קיים מימוש פתוח של _ביטלוקר_ המאפשר לקרוא קבצים מוצפנים ממערכת הפעלה
- שאינה חלונות.
- איתמר יכול להשתמש במערכת הצפנה חופשית כגון PGP, שקיימים מימושים שלה לכל
- מערכות ההפעלה הנפוצות, וכך גם לשמור על סודיות הנתונים שלו, וגם לאפשר גישה
- מלינוקס לנתונים שנשמרו בחלונות.
+לא קיים מימוש פתוח של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+\lang english
+bitlocker
+\lang hebrew
+ המאפשר לקרוא קבצים מוצפנים ממערכת הפעלה שאינה חלונות.
+ איתמר יכול להשתמש במערכת הצפנה חופשית כגון 
+\lang english
+PGP
+\lang hebrew
+, שקיימים מימושים שלה לכל מערכות ההפעלה הנפוצות, וכך גם לשמור על סודיות
+ הנתונים שלו, וגם לאפשר גישה מלינוקס לנתונים שנשמרו בחלונות ולהפך.
 \end_layout
 
 \begin_layout Enumerate
@@ -1608,14 +1690,25 @@ status open
 \begin_layout Enumerate
 אם המפתחות אינם שונים, קיים סיכון סטטיסטי שמשתמש מן המניין יקבל מפתח אתחול
  שהוא גם מפתח שחזור, ואז יוכל לקבל גישה למערכת של כל משתמש אחר בארגון תוך
- עקיפת ההגנות שמספק שבב ה_טיפיאם_.
+ עקיפת ההגנות שמספק שבב ה-
+\lang english
+TPM
+\lang hebrew
+.
 \end_layout
 
 \begin_layout Enumerate
 אין צורך במפתח שחזור במוד עבודה זה - מטרתו של מפתח השחזור היא לאפשר עליית
- מערכת במצב שבו שבב ה_טיפיאם_ לא מאמת בהצלחה את זהות המערכת בהתאם למדדים
- שהוא מצפה שיהיו קבועים.
- מצב זה אינו קיים כששבב _טיפיאם_ אינו קיים, ולכן אין צורך במפתח כזה.
+ מערכת במצב שבו שבב ה-
+\lang english
+TPM
+\lang hebrew
+ לא מאמת בהצלחה את זהות המערכת בהתאם למדדים שהוא מצפה שיהיו קבועים.
+ מצב זה אינו קיים כששבב 
+\lang english
+TPM
+\lang hebrew
+ אינו קיים, ולכן אין צורך במפתח כזה.
 \end_layout
 
 \end_deeper
